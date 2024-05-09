@@ -1,0 +1,120 @@
+@font-face {
+  font-family: GFSDidot;
+  src: url(../font/GFSDidot-Regular.ttf);
+}
+
+body{
+  width: 850px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  font-family: GFSDidot, sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 64px;
+  font-family: serif;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.logo {
+  text-align: center;
+  border-bottom: 0.8px double rgb(224, 224, 224);
+  padding-bottom: 25px; 
+}
+
+.logo img {
+  width: 295px;
+  height: 65px;
+}
+
+
+nav> * {
+  display: flex;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav > ul {
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+}
+
+.header {
+  padding-top:40px ;
+  padding-bottom: 80px; 
+}
+ 
+.interview-description{
+  color: #333;
+  font-size: 17px;
+  padding-top: 16px;
+  margin: 0;
+  text-align: center;
+}
+
+.fade-in {
+  color: #333;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  opacity: 0; /* начальное значение непрозрачности */
+  animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
+  animation-fill-mode: forwards; /* будет видимым после завершения анимации */
+  animation-duration: 1.2s; /* длительность анимации в 1 секунду */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.video{ 
+  padding-bottom: 78px;
+  border-top: 0.8px double rgb(224, 224, 224);
+  border-bottom: 0.8px double rgb(224, 224, 224);; 
+}
+
+.video-author {
+  color: #333;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 16px;
+}
+
+iframe {
+  width: 850px;
+}
+
+
+.bottom {
+  color: #333;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 16px;
+  margin: 0;
+}
